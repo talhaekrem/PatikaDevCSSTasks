@@ -78,3 +78,6 @@ a {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
+.list-style-inside{
+    list-style-position: inside;
+}
