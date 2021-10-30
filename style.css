@@ -1,0 +1,80 @@
+:root {
+    --primary: #88E0EF;
+    --secondary: #161E54;
+    --brand: #FF5151;
+    --success: #FF9B6A;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+
+body {
+    width: 75%;
+    margin: 0 auto 0 auto;
+    padding: 0 15px 0 15px;
+    background: #FFEEEE;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DDEFBB, #FFEEEE);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DDEFBB, #FFEEEE);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: var(--primary);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.primary {
+    color: #88E0EF;
+}
+
+.secondary {
+    color: #161E54;
+}
+
+.brand {
+    color: #FF5151;
+}
+
+.success {
+    color: #FF9B6A;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.px-3 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+
+a {
+    color: inherit !important;
+}
+
+.Lspace {
+    letter-spacing: .5rem;
+}
+
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
